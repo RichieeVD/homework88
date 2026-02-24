@@ -52,5 +52,11 @@ public class Main {
             totalWithInterest = (totalWithInterest + monthlyContribution) * 1.01;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + totalWithInterest + " рублей");
         }
+
+        // Задача 10
+        for (int i = 1; i <= 10; i++) {
+            int result = 2 * i;
+            System.out.println("2 * " + i + " = " + result);
+        }
     }
 }
