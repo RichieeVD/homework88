@@ -43,5 +43,14 @@ public class Main {
             total = total + contribution;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
+
+        // Задача 9
+        double totalWithInterest = 0;
+        int monthlyContribution = 29000;
+
+        for (int i = 1; i <= 12; i++) {
+            totalWithInterest = (totalWithInterest + monthlyContribution) * 1.01;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + totalWithInterest + " рублей");
+        }
     }
 }
